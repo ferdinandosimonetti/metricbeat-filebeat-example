@@ -21,7 +21,6 @@ You need to specify only the CloudID and Cloud Auth informations, the Elastic/Ki
 ```
     cloud.id: ${ELASTIC_CLOUD_ID}
     cloud.auth: ${ELASTIC_CLOUD_AUTH}
-
 ```
 ```
         - name: ELASTIC_CLOUD_ID
