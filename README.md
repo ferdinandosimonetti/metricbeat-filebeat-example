@@ -1,6 +1,12 @@
 # Monitoring and logging for Kubernetes via Beats -> ElasticSearch, visualization with Kibana
 
-First of all, neither the monitored AKS cluster nor the ElasticCloud instance exist anymore, so I've kept the YAML files unedited.
+First of all, neither the monitored (test) AKS cluster nor the ElasticCloud (test) instance exist anymore, so I've kept the YAML files nearly unedited.
+
+## Observed cluster's prerequisites
+
+**Metricbeat** relies, to obtain some relevant data, on Kube-State-Metrics, you'll have to deploy it first (on kube-system namespace).
+
+https://artifacthub.io/packages/helm/prometheus-community/kube-state-metrics
 
 ## Destination environments
 
